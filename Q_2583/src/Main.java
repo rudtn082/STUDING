@@ -8,8 +8,8 @@ public class Main {
     int areaValue = 0;
 
     public static void main(String[] args) {
-        Main q = new Main();
-        q.start();
+        Main main = new Main();
+        main.start();
     }
 
     public void start() {
@@ -22,6 +22,10 @@ public class Main {
                 M = SC.nextInt();
                 N = SC.nextInt();
                 K = SC.nextInt(); // M, N, K가 빈칸을 사이에 두고 차례로 주어진다.
+
+                if (M > 100 || N > 100 || K > 100) { // 모두 100이하의 자연수이다.
+                    return;
+                }
             } catch (Exception e) {
                 return;
             }
@@ -33,10 +37,6 @@ public class Main {
                     wholeArea[i][j] = 0;
                 }
             }
-
-            if (M > 100 || N > 100 || K > 100) { // 모두 100이하의 자연수이다.
-                return;
-            }
             break;
         }
 
@@ -46,7 +46,7 @@ public class Main {
                 point_2 = SC.nextInt();
                 point_3 = SC.nextInt();
                 point_4 = SC.nextInt();
-                if (point_1 > N || point_3 > N || point_2 > M || point_1 > M) return;
+                if (point_1 > N || point_3 > N || point_2 > M || point_4 > M) return;
             } catch (Exception e) {
                 return;
             }
@@ -76,18 +76,18 @@ public class Main {
         }
 
         // 정렬
-        int temp = 0;
         for (int i = 0; i < arrayList.size(); i++) {
-            if (arrayList.get(temp) > arrayList.get(i))
-                Collections.swap(arrayList, temp, i);
+            for (int j = i + 1; j < arrayList.size(); j++) {
+                if (arrayList.get(i) > arrayList.get(j)) {
+                    Collections.swap(arrayList, i, j);
+                }
+            }
         }
 
-
-        System.out.println(arrayList.size() + " ");
+        // 출력
+        System.out.println(arrayList.size());
         for (int i = 0; i < arrayList.size(); i++) {
-            System.out.printf(String.valueOf(arrayList.get(i)));
-            if (i + 1 == arrayList.size()) break;
-            else System.out.printf(" ");
+            System.out.printf(arrayList.get(i) + " ");
         }
     }
 
