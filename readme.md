@@ -3,7 +3,7 @@
 |                                                        Challenge                                                         | Score  | Difficulty |                                                     Solution                                                      |
 |:------------------------------------------------------------------------------------------------------------------------:|:------:|:----------:|:-----------------------------------------------------------------------------------------------------------------:|
 | [Java Comparator](https://www.hackerrank.com/challenges/java-comparator/problem)                                         |   10   |   Medium   | [Solution.java](HackerRank/Java%20Comparator/Solution.java)                    		                             |
-| [Java Regex](https://www.hackerrank.com/challenges/java-regex/problem)                                        		   |   25   |   Medium   | [Solution.java](HackerRank/Java%20Comparator/Solution.java)                    		                             |
+| [Java Regex](https://www.hackerrank.com/challenges/java-regex/problem)                                        		   |   25   |   Medium   | [Solution.java](HackerRank/Java%20Regex/Solution.java)                    		                             |
 
 
 # Baekjoon 
