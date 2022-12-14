@@ -5,6 +5,7 @@
 | [Java Comparator](https://www.hackerrank.com/challenges/java-comparator/problem)                                         |   10   |   Medium   | [Solution.java](HackerRank/Java%20Comparator/Solution.java)                    		                             |
 | [Java Regex](https://www.hackerrank.com/challenges/java-regex/problem)                                        		   |   25   |   Medium   | [Solution.java](HackerRank/Java%20Regex/Solution.java)                    		                             	 |
 | [Java Stack](https://www.hackerrank.com/challenges/java-stack/problem)                                        		   |   20   |   Medium   | [Solution.java](HackerRank/Java%20Stack/Solution.java)                    		                             	 |
+| [Java Subarray](https://www.hackerrank.com/challenges/java-negative-subarray/problem)                                         |   10   |   Easy   | [Solution.java](HackerRank/Java%20Subarray/Solution.java)                    		                             	 |
 
 
 # Baekjoon 
